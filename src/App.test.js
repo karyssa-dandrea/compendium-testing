@@ -68,7 +68,7 @@ test('correctly search ghibli movie', async () => {
   render(<App />);
 
   const searchBar = await screen.findByRole('textbox');
-  const movieName = 'kiki';
+  const movieName = 'grave';
   const searchButton = screen.getByRole('button', {
     name: /search/i,
   });
